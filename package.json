@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "chart.js": "^4.4.6",
+    "cos-wx-sdk-v5": "^1.7.2",
+    "hls.js": "^1.5.17",
+    "simple-vue-camera": "^1.1.3"
+  }
+}

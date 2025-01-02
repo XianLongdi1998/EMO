@@ -1,0 +1,155 @@
+{
+  "pages": [
+	  {
+	  	"path" : "pages/lagin/lagin",
+	  	"style" : 
+	  	{
+	  		"navigationBarTitleText" : "Login"
+	  	}
+	  },
+    {
+      "path": "pages/camer/camer",
+      "style": {
+        "navigationBarTitleText": "Main"
+      }
+    },
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "Personal"
+      }
+    },
+    {
+      "path": "pages/tes/tes",
+      "style": {
+        "navigationBarTitleText": "First Record"
+      }
+    },
+    {
+      "path": "pages/tes2/tes2",
+      "style": {
+        "navigationBarTitleText": "Second Record"
+      }
+    },
+    {
+      "path": "pages/predict/predict",
+      "style": {
+        "navigationBarTitleText": "Daily Report"
+      }
+    },
+    {
+    	"path" : "pages/tes3/tes3",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : "Questionaire"
+    	}
+    },
+    {
+    	"path" : "pages/predict/details/details",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : ""
+    	}
+    },
+    {
+    	"path" : "pages/Chat/Chat",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : "Chat"
+    	}
+    },
+    {
+    	"path" : "pages/Audio/Audio",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : ""
+    	}
+    },
+    {
+    	"path" : "pages/Chat/speech1/speech1",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : ""
+    	}
+    },
+    {
+    	"path" : "pages/Chat/text1/text1",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : ""
+    	}
+    },
+    {
+    	"path" : "pages/Audio/audio2/audio2",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : ""
+    	}
+    },
+    {
+    	"path" : "pages/rigister/rigister",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : ""
+    	}
+    },
+    {
+    	"path" : "pages/analysis/analysis",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : "User's Analysis"
+    	}
+    },
+    {
+    	"path" : "pages/analysis/analysisdetail/analysisdetail",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : ""
+    	}
+    }
+    
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#f0f8ff"
+  },
+  "tabBar": {
+    "color": "#76a1f5",
+    "selectedColor": "#3c7cf9",
+    "backgroundColor": "#f0f8ff",
+    "list": [
+      {
+        "pagePath": "pages/camer/camer",
+        "text": "Main",
+        "iconPath": "static/image/video1.png",
+        "selectedIconPath": "static/image/video2.png"
+      },
+      {
+        "pagePath": "pages/predict/predict",
+        "text": "Daily Report",
+        "iconPath": "static/image/emotion1.png",
+        "selectedIconPath": "static/image/emotion2.png"
+      },
+	  {
+	    "pagePath": "pages/analysis/analysis",
+	    "text": "Analysis",
+	    "iconPath": "static/analysis_e.png",
+	    "selectedIconPath": "static/analysis_ed.png"
+	  },
+	  {
+	    "pagePath": "pages/Chat/Chat",
+	    "text": "Chat",
+	    "iconPath": "static/image/aichat.png",
+	    "selectedIconPath": "static/image/aichatslected.png"
+	  },
+      {
+        "pagePath": "pages/index/index",
+        "text": "Personal",
+        "iconPath": "static/image/me1.png",
+        "selectedIconPath": "static/image/me2.png"
+      }
+    ]
+  }
+}
