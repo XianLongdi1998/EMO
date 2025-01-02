@@ -109,7 +109,7 @@ def clean_text(text):
     cleaned_text = re.sub(r'[^\u4e00-\u9fff，。！？、；：“”‘’（）《》〈〉「」『』【】〔〕…—～]', '', text)
     return cleaned_text
 
-openai.api_key = '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'
+openai.api_key = xxx
 openai.default_headers = {"x-foo": "true"}
 def chatgpt(txt):
     completion = openai.ChatCompletion.create(
